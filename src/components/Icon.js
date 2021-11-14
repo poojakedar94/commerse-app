@@ -1,12 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Icon() {
   return (
     <div>
-      <img
-        src="https://images.indianexpress.com/2021/01/myntra.png"
-        className="icon"
-      />
+      <Link to="/" className="nav-link">
+        <img
+          src="https://images.indianexpress.com/2021/01/myntra.png"
+          className="icon"
+        />
+      </Link>
     </div>
   );
 }
