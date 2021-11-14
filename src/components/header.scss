@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  .icon-wrapper {
+    .icon {
+      width: 100px;
+      padding-left: 40px;
+      margin: 20px 0px 20px 0px;
+    }
+  }
+}

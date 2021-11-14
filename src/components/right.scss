@@ -1,0 +1,16 @@
+.right-container {
+  display: flex;
+  .icon-with-label {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    align-items: center;
+    .icon-label {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+  i {
+    padding: 5px 20px;
+  }
+}

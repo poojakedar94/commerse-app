@@ -1,0 +1,17 @@
+.categories-container {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 25px;
+  .img-container {
+    padding: 50px 0px 0px 25px;
+    width: 20%;
+    box-sizing: border-box;
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
