@@ -1,0 +1,26 @@
+.cart-item-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 20px 100px 0px 100px;
+  width: 40%;
+  position: relative;
+  img {
+    height: auto;
+    width: 100px;
+  }
+  .info-container {
+    padding-left: 10px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 1;
+    padding: 0;
+  }
+}
